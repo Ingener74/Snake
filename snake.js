@@ -57,11 +57,6 @@ function Snake(x, y, dir) {
 		this.y = y;
 		this.fresh = false;
 		
-		// this.move = function(dx, dy) {
-		// 	this.x = circle(this.x, dx, 0, maxWidth);
-		// 	this.y = circle(this.y, dy, 0, maxHeight);
-		// };
-		
 		this.draw = function(context) {
 			context.fillRect(this.x * l, this.y * l, l, l)
 			context.strokeRect(this.x * l, this.y * l, l, l)
